@@ -1,0 +1,4 @@
+build/
+pandoc-crossref
+kindlegen
+.DS_Store
