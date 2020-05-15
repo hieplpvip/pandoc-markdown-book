@@ -1,19 +1,3 @@
-# Super nocens
-
-Here is a reference to an image. See [@fig:randomimage].
-
-![an image](https://picsum.photos/200/300){#fig:randomimage}
-
-## Adessent in
-
-Lorem markdownum verba **nisi sum quodque** ante rapido conpellat olivae. Visu
-inpulit volui retemptat non est properas ullo pone est, auroque. Haec amore
-inmotae volucri dente.
-
-- Aequorei clara
-- Illo olivae
-- Quibus erraverit ab non sed sedet ille
-
 ## Quam piceis
 
 [Arcus](http://qui.org/) formae mortis in altrice nomen inter, et animos
@@ -57,3 +41,9 @@ this is a very long long long long long long long long long long long long long 
 
 Pythagoras Theorem:
 $$a^2 + b^2 = c^2$$
+
+### Heading level 3
+
+xxxx
+
+#### Heading level 4

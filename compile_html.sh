@@ -8,6 +8,7 @@ pandoc \
     --highlight-style tango \
     --filter pandoc-crossref \
     -s -t slidy \
-    src/title.txt src/*.md
+    metadata.yml \
+    src/*/*.md
 
 cp -r img build/html/

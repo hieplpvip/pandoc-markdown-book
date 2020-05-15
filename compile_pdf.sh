@@ -10,6 +10,7 @@ pandoc \
     --listings \
     --filter pandoc-crossref \
     -o build/pdf/output.pdf \
-    src/title.txt src/*.md
+    metadata.yml \
+    src/*/*.md
     # --top-level-division=chapter \
     # -V book \

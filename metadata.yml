@@ -5,16 +5,16 @@ author: Le Bao Hiep
 subject: "markdown"
 keywords: [books,programming]
 language: en-US
-cover-image: img/example-book-cover.png
+cover-image: img/book-cover.png
 lof: true
 lof-own-page: true
 toc-own-page: true
-titlepage: false
+titlepage: true
 titlepage-background: backgrounds/background10.pdf
 titlepage-text-color: "333333"
 titlepage-rule-color: "00737C"
 papersize: letter
-prepend-titlepage: img/example-book-cover.pdf
+prepend-titlepage: img/book-cover.pdf
 colorlinks: true
 listings: true
 ---

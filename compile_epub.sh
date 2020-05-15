@@ -7,5 +7,6 @@ pandoc \
     --css templates/epub.css \
     --toc -N \
     -o build/epub/output.epub \
-    src/title.txt src/*.md
+    metadata.yml \
+    src/*/*.md
     # -f markdown+smart -t markdown-smart \
