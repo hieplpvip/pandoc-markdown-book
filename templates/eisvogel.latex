@@ -405,10 +405,12 @@ $if(pagestyle)$
 \pagestyle{$pagestyle$}
 $endif$
 
-\newcommand{\sectionbreak}{\clearpage}
+% A small hack to add page break after every section
+\let\oldsection\section
+\renewcommand\section{\clearpage\oldsection}
 
 % Make use of float-package and set default placement for figures to H.
-% The option H means 'PUT IT HERE' (as  opposed to the standard h option which means 'You may put it here if you like').
+% The option H means 'PUT IT HERE' (as opposed to the standard h option which means 'You may put it here if you like').
 \usepackage{float}
 \floatplacement{figure}{$if(float-placement-figure)$$float-placement-figure$$else$H$endif$}
 

@@ -9,6 +9,7 @@ pandoc \
     --toc -N \
     --listings \
     --filter pandoc-crossref \
+    --lua-filter=pagebreak.lua \
     -o build/pdf/output.pdf \
     metadata.yml \
     src/*/*.md
